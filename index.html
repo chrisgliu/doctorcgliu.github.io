@@ -6,21 +6,9 @@
     <title>Christopher G Liu</title>
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./nav.css">
-    <script>
-        function tbm() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-            var images = document.body.getElementsByTagName("g");
-            for (var image of images) {
-                image.classList.toggle("dark-img");
-            }
-            var circles = document.body.getElementsByTagName("circle");
-            for (var circle of circles) {
-                circle.classList.toggle("dark-img");
-            }
-        }
-    </script>
 
+    <script src="./main.js"></script>
+    
     <link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png">
@@ -75,14 +63,6 @@
         </div>
     </div>
 
-    <script>
-        const navIcon = document.querySelector(".nav-icon");
-        const nav = document.querySelector("nav");
-
-        navIcon.onclick = function () {
-            nav.classList.toggle('show');
-        }
-    </script>
 
     <div class="container">
 		<h2>
