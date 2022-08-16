@@ -1,0 +1,96 @@
+html {
+   font-size: 14px;
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+.container {
+    max-width: 960px;
+}
+
+.big-header {
+    max-width: 700px;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+.background-image {
+    width: 400px;
+    height: 400px;
+    clip-path: circle(50% at 50% 50%);
+}
+.carbon{
+    background:
+    radial-gradient(#050416 15%, transparent 16%) 0 0,
+    radial-gradient(#041626 15%, transparent 16%) 10px 9px,
+    radial-gradient(#141da3 15%, transparent 20%) 10px 10px;
+    background-color:#050416;
+    background-size:16px 16px;
+    color: #ffff;
+}
+.highlighttextred{
+    color: #EA4C73;
+}
+.highlighttextgreen{
+    color: #82D5C3;
+}
+.highlighttextpurple{
+    color: #6270DC;
+}
+.card-header{
+    color: #fff;
+    background-color: #050416;
+}
+.button-red{
+    background-color: #EA4C73;
+    color: #000;
+}
+.button-red:hover{
+    background-color: #fff;
+    color: #EA4C73;
+    border-color: #EA4C73;
+}
+.button-green{
+    background-color: #82D5C3;
+    color: #000;
+}   
+.button-green:hover{
+    background-color: #fff;
+    color: #82D5C3;
+    border-color: #82D5C3;
+}
+.button-purple{
+    background-color: #6270DC;
+    color: #fff;
+}
+.button-purple:hover{
+    background-color: #fff;
+    color: #6270DC;
+    border-color: #6270DC;
+}   
+body {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+.bigunderline{
+  margin-bottom: 10px;
+}
+.bigunderline:hover{
+  border-bottom: 5px solid #050416;
+  margin-bottom: 5px;
+}
+.round {
+    border-radius:2rem;
+}
+.rborder {
+    border: 2px solid black; 
+    border-radius: 10px;
+}
+
+  

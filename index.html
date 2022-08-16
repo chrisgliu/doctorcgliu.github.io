@@ -1,101 +1,246 @@
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christopher G Liu</title>
-    <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./nav.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <script src="./main.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/moo.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/funkytext.css"> 
+    <script src="./js/funkytext.js"></script>
+    <link rel="stylesheet" href="./css/cube.css"> 
+
+    <title>Christopher G Liu</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png">
     <link rel="manifest" href="./icon/site.webmanifest">
-</head>
-<body>
 
-    <nav> 
-        <div class="nav-content">
-            <a onclick="tbm()"class="logo">
-                <img src="./Images/logo.png" width="20" height="20" style="margin-top: 12px; border-radius: 100%;" display="block">
+    
+  </head>
+
+    <body>
+        <div class="pos-f-t">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand" href="#home">
+            <img class="my-0 mr-md-auto rborder" src="./images/logo.png" alt="" width="50" height="50">
             </a>
-            
-            <div class="nav-icon">
-                <div class="bar one"></div>
-                <div class="bar two"></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav ml-auto font-weight-bold">
+                <li class="nav-item">
+                <a class="nav-link bigunderline ml-2 mr-2 mt-2" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link bigunderline ml-2 mr-2 mt-2" href="#research">Research</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link bigunderline ml-2 mr-2 mt-2" href="#teach">Teaching</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link btn button-red pl-4 pr-4 mt-2 font-weight-bold" href="#contact">Contact</a>
+                </li>
+            </ul>
             </div>
-
-            <div class="nav-links">
-                <a href="./index.html">Home</a>
-                <a href="./chris_research.html">Research</a>
-                <a href="./chris_group.html">Group</a>
-                <a href="./chris_publications.html">Publications</a>
-                <a href="./chris_teaching.html">Teaching</a>
-            </div>
-
-            <svg onclick="tbm()" class="search-icon" width="20" height="44" display="block">
-                <circle cx="9" cy="22" r="8" stroke="white" stroke-width="1.5" fill="none" />
-            </svg>
-
+        </nav>
         </div>
-    </nav>
-    <div class="content">
-        <div class="vstack">
-            <h1> "doctor of evil" </h1>
-            <div class="center">
-                <img src="./Images/1chris.png" style="width: 80%;">
+
+          <section class="pt-4 pt-md-11">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-12 col-md-5 col-lg-6 order-md-2 text-center">
+                  <div id="wrapper">
+                        <div class="box-area">
+                            <div id="box-front" class="box">
+                              <img alt="" src="./Images/chris1.png" width="400" height="400">
+                            </div>
+                            <div id="box-right" class="box">
+                              <img alt="" src="./Images/chris2.png" width="400" height="400">
+                            </div>
+                            <div id="box-back" class="box">
+                              <img alt="" src="./Images/chris3 copy.png" width="400" height="400">
+                            </div>
+                            <div id="box-left" class="box">
+                              <img alt="" src="./Images/chris4 copy.png" width="400" height="400">
+                            </div>
+                            <div id="box-top" class="box"></div>
+                            <div id="box-bottom" class="box"></div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-12 col-md-7 col-lg-6 order-md-1">
+                    <h1 id="home" class="display-3 text-md-left text-center w-100" style="margin-bottom: 1.5em;">
+                        Doctor of
+                        <div class="text float-left" style="margin-top: 1em;">
+                          <span class="word highlighttextpurple w-100">Science</span>
+                          <span class="word highlighttextgreen w-100">Philosophy</span>
+                          <span class="word highlighttextred w-100">Evil</span>
+                        </div>
+                    </h1>
+                  <p class="lead text-md-left text-center mb-6 mb-lg-8">
+                    Christopher G Liu
+                    <br>
+                    <small class="mb-3 text-muted">
+                      Undergraduate Student,
+                      Department of Computer Science and Engineering,  
+                      The Ohio State University
+                    </small>
+                  </p>
+                  <div class="text-center text-md-left">
+                    <a href="#about" class="btn button-purple">
+                      Learn more
+                    </a>
+                    <a href="#contact" class="btn button-green">
+                      Contact me
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
-
-
-    <div class="container">
-		<h2>
-            About Me
-        </h2>
-        <hr>
-        <p>
-            I am an AI <a href="https://cse.osu.edu/">Computer Science and Engineering</a> Undergraduate student at <a href="https://www.osu.edu/">The Ohio State University</a> with an interest in <a href="https://ece.osu.edu/">Electrical and Computer Engineering</a>. For more information, here is a copy of my <a href="https://drive.google.com/file/d/1X0HlSc_pheL3GPW9EbvfzTax6_sRMQnV/view?usp=sharing">resume</a>.
+          </section>
+          
+          <section class="py-8 py-md-11 carbon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,128L60,154.7C120,181,240,235,360,229.3C480,224,600,160,720,122.7C840,85,960,75,1080,90.7C1200,107,1320,149,1380,170.7L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+            <div class="container pb-2 pt-2">
+              <div class="row justify-content-between align-items-center">
+                <div class="col-12 col-md-6 text-center">
+                  <img src="./images/chris1.png" class="round img-fluid w-75 h-75 mb-6 mb-md-0">
+                </div>
+                <div class="col-12 col-md-5">
+                  <h1 id="about" class="highlighttextred display-3 text-md-left w-100 pt-2">
+                    About Me
+                  </h1>
+                  <p class="text-muted-80 mb-6 mb-md-0">
+                    My name is Chris. I am an AI CSE undergraduate student at The Ohio State University with an interest in ECE.
+                    <br><br>
+                    I view my career as something in between an eccentric hobby and an unhealthy obsession. 
+                    I am someone who has fun learning and is genuinely interested in teaching. 
+                    When it comes to PhDs, I think you have to be slightly crazy in order to be willing to study one topic for potentially seven years in hopes of solving one problem through research. 
+                    Passion is for casuals.
+                    <hr>
+                    I also like pie.
+                  </p>
+                </div>
+              </div>
+            </div> 
             <br><br>
-            I view my career as something in between an eccentric hobby and an unhealthy obsession. I am someone who has fun learning and is genuinely interested in teaching. When it comes to PhDs, I think you need to be slightly crazy in order to be willing to study one topic for potentially seven years in hopes of solving one problem through research. Passion is for casuals.
-		</p>
-	</div>
+            <div class="container pb-2 pt-2">
+              <div class="row justify-content-between align-items-center">
+                <div class="col-12 col-md-5">
+                  <h1 id="research" class="highlighttextpurple display-3 text-md-left w-100 pt-2">
+                    Research Interests
+                  </h1>
+                  <p class="text-muted-80 mb-6 mb-md-0">
+                    If you are asking what I would do if I was given millions of dollars and was told to go crazy, 
+                    I would want to study biologically inspired AI. 
+                    This would include Wetware Computers and Neuromorphic Chips. 
+                    
+                    I believe that this is a Practical, Inevitable, Environmental evolution for tech.
+                    
+                    <br><br>
+                    I hope I don't accidentally help create an anime supercomputer that replaces the government.
+                  </p>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <img src="./images/chris3.png" class="round img-fluid w-75 h-75 mb-6 mb-md-0">
+                </div>
+              </div>
+            </div> 
+            <br><br>
+            <div class="container pb-2 pt-2">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-12 col-md-6 text-center">
+                      <img src="./images/chris4.png" class="round img-fluid w-75 h-75 mb-6 mb-md-0">
+                    </div>
+                    <div class="col-12 col-md-5">
+                      <h1 id="teach" class="highlighttextgreen display-3 text-md-left w-100 pt-2">
+                        Teaching
+                      </h1>
+                      <p class="text-muted-80 mb-6 mb-md-0">
+                        I am someone who believes that you magically learn what you teach.
+                        <br><br>
+                        As a teacher, I would want to be as approachable as possible: 
+                        sharing things I find interesting about a topic, 
+                        encouraging students to tell me upfront if they don't understand,
+                        and rewarding students for showing up.
+                        <br><br>
+                        Pedagogy is fun.
+                      </p>
+                    </div>
+                </div>
+            </div> 
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,192L360,128L720,288L1080,96L1440,160L1440,320L1080,320L720,320L360,320L0,320Z"></path></svg>
+        </section>
 
-    <div class="container">
-		<h2>
-            News
-        </h2>
-        <hr>
-        <p>
-            Day/Year &emsp;
-            Here is an event that happened that I want to brag about
-		</p>
-    </div>
-    <nav> 
-        <div class="container" style="padding-top: 20px;">
-            <div class="hstack">
-                <img src="./Images/chris.png" class="img">
-                <div class="stack card">
-                    <h1>Christopher G Liu</h1>
-                    <p>
-                        chrisliu317@gmail.com <br>
-                        <a href="https://github.com/doctorcgliu">Github</a>  |
-                        <a href="https://www.linkedin.com/in/christopher-g-liu/">LinkedIn</a>
-                    </p>
-                </div>    
+   
+        <section class="py-8 py-md-11 pb-5">
+          <div class="container pb-2 pt-2">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-12 col-md-6 text-center">
+                  <img src="./images/chris2.png" class="round img-fluid w-75 h-75 mb-6 mb-md-0">
+                </div>
+                <div class="col-12 col-md-5">
+                  <h1 id="peeps" class="highlighttextred display-3 text-md-left w-100 pt-2">
+                    Cool People
+                  </h1>
+                  <p class="text-muted-80 mb-6">
+                    Note: Inspired by the movie, "The Devil Wears Prada", I would like all my rec letters to be as aggressive as possible.
+                  </p>
+                  <!-- <ul>
+                    <li>Christopher G Liu</li>
+                    <li>To Be Continued</li>
+                  </ul> -->
+                </div>
             </div>
-            <div class="othernav">
-                <h2>Navigation</h2>
-                <a href="./index.html">Home</a>
-                <a href="./chris_research.html">Research</a>
-                <a href="./chris_group.html">Group</a>
-                <a href="./chris_publications.html">Publications</a>
-                <a href="./chris_teaching.html">Teaching</a>
-            </div>
-        </div> 
-    </nav>
+          </div> 
 
-</body>
+          <div class="big-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 id="pubs" class="highlighttextpurple display-3">
+              Publications Nstuff
+            </h1>
+            <p class="lead">
+                This is where the fun begins
+            </p>
+          </div>
+
+        </section>
+
+        <footer class="container pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-2 rborder" src="./Images/cgl.jpg" alt="" width="200" height="200">
+                    <small id="contact" class="mb-3 text-muted">Christopher G Liu</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Contact</h5>
+                    <ul class="list-unstyled text-small">
+                      <li><a class="text-muted" href="mailto:chrisliu317@gmail.com">Email</a></li>
+                      <li><a class="text-muted" href="https://www.linkedin.com/in/christopher-g-liu/">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Website</h5>
+                    <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#about">About</a></li>
+                    <li><a class="text-muted" href="#research">Research</a></li>
+                    <li><a class="text-muted" href="#teach">Teaching</a></li>
+                    <li><a class="text-muted" href="#peeps">Peeps</a></li>
+                    <li><a class="text-muted" href="#pubs">Pubs</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Other</h5>
+                    <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="{% url 'x' %}">Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    
+    </body>
 </html>
