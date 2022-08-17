@@ -2,7 +2,7 @@
     position: absolute;
     perspective: 1500px;
     z-index: 1;
-    top: 100px;
+    top: 50px;
     left: 300px;
   }
   
@@ -50,49 +50,50 @@
     height: 400px;
   }
   .box img {
-    border: 3px solid #050416;
+    width: 395px;
+    height: 395px;
   }
   #box-front {
     -webkit-transform: translateX(-200px) translateY(-200px) translateZ(200px);
     -moz-transform: translateX(-200px) translateY(-200px) translateZ(200px);
     transform: translateX(-200px) translateY(-200px) translateZ(200px);
-    background-color: #111a64a0;
-    border: 1px solid #050416;
+    background-color: #050416;
+    border: 2px solid #050416;
   }
   #box-back {
     -webkit-transform: translateX(-200px) translateY(-200px) translateZ(-200px);
     -moz-transform: translateX(-200px) translateY(-200px) translateZ(-200px);
     transform: translateX(-200px) translateY(-200px) translateZ(-200px);
-    background-color: #111a64a0;
-    border: 1px solid #050416;
+    background-color: #050416;
+    border: 2px solid #050416;
   }
   #box-right {
     -webkit-transform: translateY(-200px) rotateY(90deg);
     -moz-transform: translateY(-200px) rotateY(90deg);
     transform: translateY(-200px) rotateY(90deg);
-    background-color: #111a64a0;
-    border: 1px solid #050416;
+    background-color: #050416;
+    border: 2px solid #050416;
   }
   #box-left {
     -webkit-transform: translateY(-200px) translateX(-400px) rotateY(90deg);
     -moz-transform: translateY(-200px) translateX(-400px) rotateY(90deg);
     transform: translateY(-200px) translateX(-400px) rotateY(90deg);
-    background-color: #111a64a0;
-    border: 1px solid #050416;
+    background-color: #050416;
+    border: 2px solid #050416;
   }
   #box-top {
     -webkit-transform: translateX(-200px) translateY(-200px) rotateX(90deg);
     -moz-transform: translateX(-200px) translateY(-200px) rotateX(90deg);
     transform: translateX(-200px) translateY(-200px) rotateX(90deg);
-    background-color: #111a64a0;
-    border: 1px solid #050416;
+    background-color: #050416;
+    border: 2px solid #050416;
   }     
   #box-bottom {
     -webkit-transform: translateX(-200px) rotateX(90deg);
     -moz-transform: translateX(-200px) rotateX(90deg);
     transform: translateX(-200px) rotateX(90deg);
-    background-color: #111a64a0;
-    border: 1px solid #050416;
+    background-color: #050416;
+    border: 2px solid #050416;
   }
   .box-area {
       -webkit-transform: rotateX(90deg) rotateY(90deg);

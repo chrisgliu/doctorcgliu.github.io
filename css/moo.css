@@ -92,5 +92,22 @@ body {
     border: 2px solid black; 
     border-radius: 10px;
 }
+.highlightborderred{
+    border: 1px solid;
+    box-shadow: 5px 10px #EA4C73; 
+}
+.highlightbordergreen{
+    border: 1px solid;
+    box-shadow: 5px 10px #82D5C3;
+}
+.highlightborderpurple{
+    border: 1px solid;
+    box-shadow: 5px 10px #6270DC;
+}
+
+.highlightborder{
+    border: 2px solid;
+    box-shadow: 5px 10px #050416;
+}
 
   
